@@ -397,6 +397,35 @@ hero
     box-shadow: 0 3px 0 rgba(0, 0, 0, 0.08);
 }
 
+.sectionsiete {
+    padding: 80px 0;
+    background: rgb(230, 230, 230);
+}
+
+.sectionsiete .container {
+    max-width: 1300px;
+    margin: 0 auto;
+     display: flex;
+}
+
+.textcuatro {
+    align-content: center;
+    justify-content: center;
+    padding-right:90px ;
+}
+
+.textcuatro h2{
+     font-family: 'Oswald', 'Arial Narrow', Arial, sans-serif;
+    font-size: 64px;
+}
+
+.textcuatro p{
+    font-weight: 500;
+    margin: 50px 0;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
 
 
 
