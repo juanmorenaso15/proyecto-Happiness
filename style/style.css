@@ -218,7 +218,7 @@ hero
 }
 
 .help-img {
-    
+
     max-width: 50%;
     border-radius: 8px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -243,8 +243,8 @@ hero
     border-radius: 6px;
 }
 
- 
-    
+
+
 .imgpersonas {
     flex: 1 1 55%;
     min-width: 55%;
@@ -305,53 +305,53 @@ hero
     display: block;
 }
 
-   /* seccion 5 ----------------------------------------------------------------------------------------------
+/* seccion 5 ----------------------------------------------------------------------------------------------
    ---------------------------------------------------------------------------------------------------------*/
-    .sobreseccion {
-        background: #000;
-        padding: 50px 0 100px;
-    }
+.sobreseccion {
+    background: #000;
+    padding: 50px 0 100px;
+}
 
-    .sobre.container {
-        max-width: 1100px;
-        margin: 0 auto;
-        text-align: center;
-        color: #fff;
-    }
+.sobre.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
 
-    .sobre h2 {
-        font-family: 'Oswald', 'Arial Narrow', Arial, sans-serif;
-        color: #f2c200;
-        font-size: 40px;
-        margin-bottom: 12px;
-        font-weight: 800;
-    }
+.sobre h2 {
+    font-family: 'Oswald', 'Arial Narrow', Arial, sans-serif;
+    color: #f2c200;
+    font-size: 40px;
+    margin-bottom: 12px;
+    font-weight: 800;
+}
 
-    .sobre p {
-        color: #ddd;
-        margin: 0 auto 30px auto;
-        line-height: 1.6;
-    }
+.sobre p {
+    color: #ddd;
+    margin: 0 auto 30px auto;
+    line-height: 1.6;
+}
 
-    .sobre-img {
-        width: 82%;
-        margin: 0 auto 28px auto;
-        border-radius: 2px;
-    }
+.sobre-img {
+    width: 82%;
+    margin: 0 auto 28px auto;
+    border-radius: 2px;
+}
 
-    .sobre-img img {
-        width: 100%;
-    }
+.sobre-img img {
+    width: 100%;
+}
 
-    .sobre-btn {
-        background: #f2c200;
-        color: #000;
-        display: inline-block;
-        padding: 12px 28px;
-        margin-top: 6px;
-        font-weight: 700;
-        text-decoration: none;
-    }
+.sobre-btn {
+    background: #f2c200;
+    color: #000;
+    display: inline-block;
+    padding: 12px 28px;
+    margin-top: 6px;
+    font-weight: 700;
+    text-decoration: none;
+}
 
 /* Seccion 6------------------------------------------------------------
 ------------------------------------------------------------------------- */
@@ -397,6 +397,8 @@ hero
     box-shadow: 0 3px 0 rgba(0, 0, 0, 0.08);
 }
 
+/* seccion siete */
+
 .sectionsiete {
     padding: 80px 0;
     background: rgb(230, 230, 230);
@@ -405,29 +407,199 @@ hero
 .sectionsiete .container {
     max-width: 1300px;
     margin: 0 auto;
-     display: flex;
+    display: flex;
 }
 
 .textcuatro {
     align-content: center;
     justify-content: center;
-    padding-right:90px ;
+    padding-right: 90px;
 }
 
-.textcuatro h2{
-     font-family: 'Oswald', 'Arial Narrow', Arial, sans-serif;
+.textcuatro h2 {
+    font-family: 'Oswald', 'Arial Narrow', Arial, sans-serif;
     font-size: 64px;
 }
 
-.textcuatro p{
+.textcuatro p {
     font-weight: 500;
     margin: 50px 0;
     font-size: 18px;
     line-height: 1.6;
 }
 
+/* Octava Seccion */
+
+.seccionoctava {
+    padding: 80px 50px;
+}
+
+.octava-content {
+    width: 50%;
+    background: rgb(2, 2, 2);
+}
+
+.octava-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.contact-octava {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 10px;
+}
+
+.formulario {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+.grupoformulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.grupoformulario label {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.grupoformulario input,
+.grupoformulario textarea {
+    border: solid 1px #fff;
+    background: transparent;
+    color: #fff;
+    padding: 20px;
+    font-size: 16px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.grupoformulario textarea {
+    resize: vertical;
+}
+
+.octava-content p {
+    color: #fff;
+    line-height: 1.6;
+    padding: 10px 50px 50px 50px;
+}
+
+.partetexto {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.partetexto h2 {
+    font-family: 'Oswald', 'Arial Narrow', Arial, sans-serif;
+    font-size: 64px;
+    font-weight: 800;
+    color: #f2c200;
+    margin-bottom: 24px;
+}
+
+.partetexto p {
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.partetexto .btn {
+    background: #000000;
+    color: #fff;
+    padding: 10px 40px;
+}
 
 
 
+/* Seccion novena */
 
+.seccionnovena {
+    background: #f2c200;
+    text-align: center;
+    padding: 20px;
+}
+.novena h2{
+    font-family: 'Oswald', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+.novena p{
+    margin: 10px 0 20px 0;
+    font-size: 18px;
+}
+
+.seccionnovena .btn{
+    margin-top: 20px;
+    background: #000000;
+    color: #fff;
+    padding: 10px 40px;
+}
+
+/* Footer ------------------------------------------------------------- */
+
+footer {
+    background: #000;
+    color: #f2c200;
+    padding: 60px 0 40px;
+}
+
+.ultima {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.ultima img {
+    width: 80px;
+    height: auto;
+}
+
+.dospartes {
+    display: flex;
+    margin: 20px 0;
+}
+
+.dospartes ul {
+    list-style: none;
+}
+
+.dospartes ul li {
+    color: #f2c200;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid rgb(255, 255, 255);
+    margin: 10px 0 0 0;
+}
+
+.partedos{
+    margin: 50px 0;
+    display: flex ;
+    justify-content: space-evenly;
+}
+.textouno {
+    color: #f2c200;
+    font-weight: 700;
+}
+
+.logos {
+    margin-left: auto;
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+
+.logos img {
+    width: 100%;
+}
 
