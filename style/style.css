@@ -525,17 +525,18 @@ hero
     text-align: center;
     padding: 20px;
 }
-.novena h2{
+
+.novena h2 {
     font-family: 'Oswald', 'Arial Narrow', Arial, sans-serif;
     font-size: 40px;
 }
 
-.novena p{
+.novena p {
     margin: 10px 0 20px 0;
     font-size: 18px;
 }
 
-.seccionnovena .btn{
+.seccionnovena .btn {
     margin-top: 20px;
     background: #000000;
     color: #fff;
@@ -582,11 +583,12 @@ hr {
     margin: 10px 0 0 0;
 }
 
-.partedos{
+.partedos {
     margin: 50px 0;
-    display: flex ;
+    display: flex;
     justify-content: space-evenly;
 }
+
 .textouno {
     color: #f2c200;
     font-weight: 700;
@@ -603,3 +605,591 @@ hr {
     width: 100%;
 }
 
+/* 921-1279: Laptops, larger tablets in landscape, and small desktops */
+@media (max-width: 1279px) {
+
+    /* -----------------------------------------------------------------------------
+hero
+------------------------------------------------------------------------------*/
+    .hero {
+        margin: 80px 0 250px 50px;
+    }
+
+    .hero h1 {
+        font-size: 80px;
+    }
+
+    .hero .container {
+        width: 40%;
+    }
+
+    .hero>img {
+        width: 55%;
+    }
+
+    /* seccion 2 ------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------- */
+
+    .stats-section .container {
+        width: 95%;
+    }
+
+    .estadistica {
+        padding: 40px 50px;
+    }
+
+    .texto h1 {
+        font-size: 48px;
+    }
+
+    /* seccion 3 --------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------ */
+
+    .help-section h2,
+    .team-text h2,
+    .textcuatro h2,
+    .partetexto h2 {
+        font-size: 56px;
+    }
+
+    .help-section {
+        background-color: #f2c200;
+        padding: 250px 100px;
+    }
+
+    .panel h2 {
+        font-size: 40px;
+    }
+
+    .terceracard.container {
+        max-width: 1300px;
+        margin: 100px;
+    }
+
+    .panel {
+        padding: 50px 40px;
+    }
+
+    /* seccion 6 -------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------*/
+
+    .ourteam {
+        padding: 90px 0;
+    }
+
+    .ourteam-content {
+        display: flex;
+        flex-direction: column;
+        margin: 90px;
+
+    }
+
+    /* seccion 7 -------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------*/
+
+    .sectionsiete {
+        padding: 50px;
+        background: rgb(230, 230, 230);
+    }
+
+    /* seccion 8 -------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------*/
+
+
+    .octava-container {
+        flex-direction: column;
+    }
+
+    .octava-content,
+    .partetexto {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .partetexto {
+        padding: 50px;
+    }
+
+    /* Seccion novena */
+
+    .seccionnovena img {
+        width: 100%;
+    }
+}
+
+/* 769-920: Tablets en landscape y pantallas más pequeñas */
+@media (max-width: 920px) {
+    .hero {
+        margin: 60px 0 200px 10px;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .hero>img {
+        width: 80%;
+        margin-top: 40px;
+    }
+
+    .hero .container {
+        width: 50%;
+    }
+
+    .hero h1 {
+        font-size: 80px;
+    }
+
+    .stats-section {
+        width: 50%;
+        display: flex;
+        position: relative;
+        background-color: transparent;
+    }
+
+
+    .stats-section .container {
+        display: flex;
+        flex-direction: row;
+        height: 35vh;
+        position: absolute;
+        top: -12vh;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .estadistica {
+        flex-direction: row;
+        margin: -80px;
+        text-align: center;
+        padding: 30px 40px;
+        top: 0;
+
+    }
+
+    .texto {
+        margin-right: 30px;
+    }
+
+    .texto h1 {
+        font-size: 40px;
+        line-height: 0.95;
+        margin-bottom: 18px;
+        font-weight: 800;
+    }
+
+    .imgestadisticz {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+
+    }
+
+    .imgestadisticz img {
+        width: 200px;
+    }
+
+
+    .help-section {
+        padding: 380px 20px 100px 0;
+    }
+
+    .help-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .help-img {
+        max-width: 80%;
+    }
+
+    .terceracard.container {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .imgpersonas,
+    .panel {
+        flex: 1 1 100%;
+    }
+
+    .panel .btn {
+        width: 60%;
+    }
+
+    .ourteam-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    .ourteam img {
+        max-width: 100%;
+        margin: 0 auto 20px auto;
+    }
+
+    .sectionsiete .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .textcuatro {
+        padding-right: 0;
+        margin-bottom: 40px;
+    }
+
+    .partetexto {
+        justify-content: flex-start;
+    }
+
+    .containernav {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    header {
+        padding: 20px;
+    }
+}
+
+/* 481-768: Tablets y smartphones más grandes */
+@media (max-width: 768px) {
+    .hero {
+        margin: 80px 0 100px 50px;
+    }
+
+    .hero h1 {
+        font-size: 80px;
+    }
+
+    .hero .container {
+        width: 70%;
+    }
+
+    .hero>img {
+        width: 55%;
+    }
+
+    .stats-section {
+        width: 50%;
+        display: flex;
+        position: relative;
+        background-color: transparent;
+    }
+
+
+    .stats-section .container {
+        display: flex;
+        flex-direction: row;
+        height: 35vh;
+        position: absolute;
+        top: -12vh;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .estadistica {
+        flex-direction: row;
+        margin: -80px;
+        text-align: center;
+        padding: 30px 40px;
+        top: 0;
+
+    }
+
+    .texto {
+        margin-right: 30px;
+    }
+
+    .texto h1 {
+        font-size: 30px;
+        line-height: 0.95;
+        margin-bottom: 18px;
+        font-weight: 800;
+    }
+
+    .imgestadisticz {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+
+    }
+
+    .imgestadisticz img {
+        width: 150px;
+    }
+
+    .help-section h2,
+    .team-text h2,
+    .textcuatro h2,
+    .partetexto h2,
+    .panel h2 {
+        font-size: 48px;
+    }
+
+    .help-section {
+        padding: 350px 20px 100px 0;
+    }
+
+    .help-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .help-img {
+        max-width: 80%;
+    }
+
+    .tercerasection {
+        padding: 50px;
+        background: transparent;
+    }
+
+    .terceracard.container {
+        margin: 0 auto;
+        background: #fff;
+        box-shadow: 0 30px 60px rgba(0, 0, 0, 0.12);
+        display: flex;
+        align-items: stretch;
+        border-radius: 6px;
+    }
+
+
+
+
+    .imgpersonas {
+        flex: 1 1 55%;
+        min-width: 55%;
+    }
+
+    .imgpersonas img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .sobre-img {
+        width: 95%;
+    }
+
+    .ourteam,
+    .sectionsiete {
+        padding: 60px 0;
+    }
+
+    .sectionsiete img{
+        width: 100%;
+    }
+
+    .seccionoctava {
+        padding: 60px 20px;
+    }
+
+    .contact-octava {
+        padding: 30px;
+    }
+
+    .formulario {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .octava-content p {
+        padding: 10px 30px 30px;
+    }
+
+    .partetexto {
+        padding: 30px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .dospartes {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .partedos {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .logos {
+        margin-left: 0;
+    }
+}
+
+/* 352-480: Smartphones más pequeños */
+@media (max-width: 480px) {
+    .hero {
+        margin: 80px 0 200px 50px;
+    }
+
+    .hero h1 {
+        font-size: 80px;
+    }
+
+    .hero .container {
+        width: 70%;
+    }
+
+    .hero>img {
+        width: 55%;
+    }
+
+    .stats-section {    
+        display: flex;
+        position: relative;
+        background-color: transparent;
+
+    }
+
+
+    .stats-section .container {
+        display: flex;
+        flex-direction: column;
+        height: 35vh;
+        position: absolute;
+        top: -12vh;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .estadistica {
+        flex-direction: column;
+        margin: -80px;
+        text-align: center;
+        padding: 30px 40px;
+        top: 0;
+
+    }
+
+
+
+    .texto h1 {
+        font-size: 30px;
+        line-height: 0.95;
+        margin-bottom: 18px;
+        font-weight: 800;
+    }
+
+    .imgestadisticz {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+
+    }
+
+    .imgestadisticz img {
+        width: 100px;
+    }
+
+
+    .help-section {
+        padding: 350px 20px 100px 0;
+    }
+
+    .help-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .help-img {
+        max-width: 80%;
+    }
+
+    .hero p,
+    .texto p,
+    .help-text p,
+    .panel p,
+    .sobre p,
+    .team-text p,
+    .textcuatro p,
+    .partetexto p {
+        font-size: 16px;
+    }
+
+    .btn,
+    .btnp {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .help-section h2,
+    .team-text h2,
+    .textcuatro h2,
+    .partetexto h2,
+    .panel h2 {
+        font-size: 36px;
+    }
+
+    .sobre h2,
+    .novena h2 {
+        font-size: 32px;
+    }
+
+    .panel {
+        padding: 30px 20px;
+    }
+
+    .panel .btn {
+        width: 80%;
+    }
+
+    .grafica img {
+        width: 200px;
+    }
+
+    .sobreseccion {
+        padding: 30px 0 60px;
+    }
+
+    .ourteam,
+    .sectionsiete {
+        padding: 40px 0;
+    }
+
+    .seccionoctava {
+        padding: 40px 10px;
+    }
+
+    .contact-octava {
+        padding: 20px;
+    }
+
+    .octava-content p {
+        padding: 10px 20px 20px;
+    }
+
+    .partetexto {
+        padding: 20px;
+    }
+
+    .grupoformulario input,
+    .grupoformulario textarea {
+        padding: 15px;
+    }
+
+    .ultima {
+        padding: 0 20px;
+    }
+
+
+    .logos img{
+        width: 100%;
+    }
+
+    .partedos {
+        margin: 30px 0;
+    }
+}
